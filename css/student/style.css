@@ -1,0 +1,149 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container{
+    width: 80%;
+    margin: 0px auto;
+}
+
+.text-br{
+    display: block;
+}
+
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    padding: 20px 0px;
+    background-color: #750DB5;
+    color: #ffffff;
+}
+
+.header-wrapper{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.header-wrapper ul{
+    display: flex;
+    gap:20px;
+}
+
+.header-wrapper ul li a{
+    color: #ffffff;
+}
+
+.banner{
+    padding: 80px 0px;
+}
+
+.banner-wrapper{
+    display: flex;
+    align-items: center;
+}
+
+.banner-child{
+    width: 50%;
+}
+
+.banner-child img{
+    width: 100%;
+}
+
+.banner-wrapper h1{
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    line-height: 80px;
+}
+
+.btn-wrapper{
+    display: flex;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.btn-wrapper a{
+    padding: 10px 25px;
+    background-color: #FFA92C;
+    color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0px 6px 13px 1px #ffa92ca1;
+    font-weight: 700;
+}
+
+.btn-transparent{
+    background-color: transparent !important;
+     box-shadow: none !important;
+     color: #333333 !important;
+}
+
+.violet{
+    color: #750DB5;
+}
+
+.jobs-wrapper{
+    display: flex;
+    gap: 20px;
+    margin-top: 50px;
+}
+
+.jw-1{
+    background-color: #0C445C;
+    color: #ffffff;
+}
+
+.jw-2{
+    background-color: #5B2C98;
+    color: #ffffff;
+}
+
+.jw-3{
+    background-color: #7F3219;
+    color: #ffffff;
+}
+
+
+
+
+/* Responsive */
+
+@media only screen and (max-width: 600px) {
+    .header-wrapper{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+}
+@media only screen and (max-width: 900px) {
+    .banner-wrapper{
+        flex-direction: column;
+        /* gap: 20px; */
+    }
+
+    .banner-child{
+        width: 100%;
+        text-align: center;
+    }
+
+    .text-br{
+        display: inline;
+    }
+}
+
+
+

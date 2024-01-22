@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1116px;
+}
+
+.three-box{
+    padding: 80px 0px;
+    background: url("./bg.png") no-repeat;
+    background-position: 13px 1px;
+    background-size: cover;
+}
+
+.box{
+    background-color: #651FFF;
+    color: #ffffff;
+    padding: 35px;
+    border-radius: 20px;
+}
+
+.three-box h2{
+    font-size: 48px;
+}
+
+p{
+    font-size: 18px;
+}
+
+.box-2, 
+.box-3{
+    margin-top: 55px;
+}

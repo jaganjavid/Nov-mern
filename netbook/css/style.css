@@ -1,0 +1,416 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+ font-family: 'Inter', sans-serif;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+h2{
+    font-size: 36px;
+}
+
+.sec-heading{
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.btn{
+    padding: 10px 20px;
+    border-radius: 12px;
+}
+
+.btn-primary{
+    background-color: #217BF4;
+    color: #ffffff;
+}
+
+.btn-border{
+    background-color: transparent;
+    color: #217BF4;
+    border: 1px solid #217BF4;
+}
+
+.container{
+    width: 80%;
+    margin: 0px auto;
+}
+
+header{
+    border-bottom: 1px solid #217bf442;
+}
+
+.header-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+.header-wrapper span{
+    font-size: 24px;
+}
+
+.header-wrapper >div:first-child{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:80px;
+}
+
+.header-wrapper > div:first-child > div{
+ display: flex;
+ align-items: center;
+ gap: 15px;
+}
+
+.header-wrapper > div > div > span{
+    font-weight: 700;
+}
+
+.header-wrapper > div > ul{
+    display: flex;
+    gap: 25px;
+}
+
+.header-wrapper > div > ul li a{
+    font-size: 14px;
+    color: #656464;
+}
+
+.solutions{
+    background: url("../images/solutions/bg.png") no-repeat;
+    background-size: cover;
+}
+
+.solutions-wrapper{
+    display: flex;
+    align-items: center;
+    padding: 85px 0px;
+}
+
+.solutions-wrapper>div{
+    width: 50%;
+}
+
+.solutions-wrapper>div:last-child img{
+    width: 100%;
+}
+
+.solutions-wrapper > div:first-child > span{
+    background-color: #E8F1FE;
+    padding: 10px 15px;
+    border-radius: 12px;
+    font-size: 12px;
+    color: #217BF4;
+    margin-bottom: 30px;
+    display: inline-block;
+}
+
+.solutions-wrapper > div:first-child > h1{
+    font-size: 56px;
+    color: #0A093D;
+}
+
+.solutions-wrapper > div:first-child > p{
+    font-size: 18px;
+    margin: 35px 0px 50px 0px;
+    line-height: 28px;
+    color: #656464;
+}
+
+.solutions-wrapper > div:first-child > div{
+    display: flex;
+    gap: 25px;
+}
+
+.solutions-wrapper > div:first-child > div > a{
+    padding: 20px 50px;
+}
+
+.network-wrapper{
+    display: flex;
+    align-items: center;
+    padding: 80px 0px;
+}
+
+.network-wrapper>div:first-child{
+    width: 40%;
+}
+
+.network-wrapper>div:last-child{
+    width: 60%;
+    text-align: right;
+}
+
+.network-wrapper>div:last-child img{
+    width: 80%;
+}
+
+.network-wrapper > div span{
+  color: #217BF4;
+  font-size: 18px;
+  display: inline-block;
+  margin-bottom: 30px;
+}
+
+.network-wrapper > div p{
+    margin: 30px 0px;
+    color: #656464;
+}
+
+.network-wrapper > div ul li{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.member{
+    padding: 80px 0px;
+}
+
+.sec-heading>span{
+  color: #217BF4;
+}
+
+.sec-heading>h2{
+    margin:15px 0px;
+}
+
+.sec-heading>p{
+   color: #656464;
+}
+
+.member-wrapper{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.member-box {
+    box-shadow: 1px 1px 10px 3px #80808029;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    transition: all 1s;
+}
+
+.member-box img {
+    margin-bottom: 30px;
+    position: relative;
+    top: 0px;
+    transition: all .30s; /* Add transition property for the image here */
+}
+
+.member-box:hover img {
+    top: -86px;
+}
+
+.member-wrapper h3{
+    font-weight: 500;
+    color: #2F2C4A;
+    margin-bottom: 10px;
+}
+
+.member-wrapper span{
+    color: #656464;
+}
+
+footer{
+    padding: 80px 0px;
+    background-color: #2B2B39;
+}
+
+.footer-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-wrapper>div:first-child{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-wrapper>div:last-child{
+    width: 30%;
+}
+
+.footer-wrapper > div:last-child > div{
+    position: relative;
+}
+
+.footer-wrapper input{
+    width: 100%;
+    padding: 8px 15px;
+    border-radius: 8px;
+    border: none;
+    height: 40px;
+    border: 1px solid #ffffff;
+    background-color: transparent;
+    color: #ffffff;
+}
+
+
+
+.footer-wrapper button{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    height: 100%;
+    padding: 0px 10%;
+    border-radius: 8px;
+    border: none;
+}
+
+.footer-wrapper h5{
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.footer-wrapper h5 span {
+    display: block;
+}
+
+.footer-wrapper ul{
+    margin-top: 25px;
+}
+
+.footer-wrapper p{
+    margin-top: 15px;
+    font-size: 12px;
+    margin-bottom: 25px;
+    color: #ffffff;
+}
+
+
+
+.footer-wrapper ul li {
+    margin-bottom: 10px;
+}
+
+.footer-wrapper ul li a{
+    color: #E7E7E7;
+    font-size: 12px;
+}
+
+
+
+
+/* .test > div > p{
+    color: green;
+}
+
+.test > div > div p{
+    color: red;
+} */
+
+
+
+/* Responsive Design */
+
+@media only screen and (max-width: 1200px) {
+    .solutions-wrapper > div:first-child > h1{
+        font-size: 45px;
+    }
+
+    .solutions-wrapper > div:first-child > div > a{
+        padding: 20px 30px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .solutions-wrapper{
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .solutions-wrapper>div{
+        width: 100%;
+    }
+
+    .banner-btn{
+        justify-content: center;
+    }
+
+    h2{
+        font-size: 30px;
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+    .header-wrapper >div:first-child {
+        flex-direction: column;
+        gap: 20px;
+        align-items: flex-start;
+    }
+    .network-wrapper{
+        flex-direction: column;
+    }
+
+    .network-wrapper > div{
+        width: 100% !important;
+    }
+
+    .network-wrapper > div:first-child{
+        text-align: center;
+    }
+
+    .network-wrapper > div:first-child ul{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .network-wrapper>div:last-child{
+        text-align: center;
+        margin-top: 80px;
+    }
+}
+@media only screen and (max-width: 576px) {
+    .header-wrapper{
+        flex-direction: column;
+        align-items: center;
+    }
+    .header-wrapper > div:last-child{
+        display: none;
+    }
+
+    .solutions-wrapper > div:first-child > h1{
+        font-size: 30px;
+    }
+    
+    .banner-btn a{
+        padding: 20px !important;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+/* .test > p{
+    color: green;
+} */
+
+/* .test > p:nth-child(2){
+    color: green;
+} */
