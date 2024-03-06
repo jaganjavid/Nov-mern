@@ -199,10 +199,10 @@ header{
 }
 
 .member-box {
-    box-shadow: 1px 1px 10px 3px #80808029;
     padding: 30px;
     border-radius: 15px;
     text-align: center;
+    box-shadow: 1px 1px 10px 3px #80808029;
     transition: all 1s;
 }
 

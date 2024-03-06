@@ -1,36 +1,48 @@
 
 
 // var, let , const
+var name = "Jagan";
 
-// var name = "Jagan";
-
-// name = "javid";
+// Reassign
+name = "Javid";
 
 // console.log(name);
 
-// INIT Variable
-// var greeting;
+// Initialize var
 
-// greeting = "Hello";
+var greeting;
+greeting = "Hello";
 
 // console.log(greeting);
 
-// Letter, _, $
+//  Letters, _ , $
 
-// Can not start with number
-// var 5star = "choco";
-// var star5 = "choco";
+// Can not start with the number
+// var 5star = "5start";
 
-// console.log(star5);
+// Multi words vars
 
-// Multi word Vars
-
-var firstname = "Jagan"; // normal case
-var firstName = "Jagan 2"; // camel case ***
-var first_name = "Jagan 3"; // snake case
-var FirstName = "Jagan 4" // Pascal case
-var $firstName = "Jagan 5"; // dollar case
+var firstname = "Jagan"; // normal
+var firstName = "Javid"; // camel case ***
+var first_name = "John"; // snake case
+var FirstName = "Jagan Javid"; //pascal Case
+var $firstName = "Arun"; // symbols case
 
 // console.log($firstName);
 
+let newName;
+newName = "Jagan";
+newName = "Javid";
+
+// console.log(newName);
+
+// const 
+
+// Have to assign a value
+const anotherName = "John";
+
+// Cannot reassign
+// anotherName = "Doe";
+
+console.log(anotherName);
 
